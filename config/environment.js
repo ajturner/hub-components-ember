@@ -4,7 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'hub-components-ember',
     environment,
-    rootURL: './',
+    rootURL: '',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
