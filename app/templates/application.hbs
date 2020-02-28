@@ -1,5 +1,9 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<h2>Radar</h2>
 
 {{outlet}}
+
+<hub-radar map=true webmap="2e725f2d5b7640b28121af931048894c" address="4321 12th St NE">
+        <strong style="margin-left: 8px;" slot="before-input">Search your DC address</strong>
+        <!-- <em slot="before-results">Local information</em> -->
+        <em slot="after-results">Visit <a href="https://opendata.dc.gov">OpenData</a></em>
+</hub-radar>
