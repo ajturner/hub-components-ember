@@ -52,6 +52,6 @@
     "node": "6.* || 8.* || >= 10.*"
   },
   "dependencies": {
-    "@esri/radar": "0.0.5"
+    "@esri/radar": "^0.0.6"
   }
 }
