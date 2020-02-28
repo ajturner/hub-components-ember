@@ -44,6 +44,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    ENV.rootURL = '/hub-components-ember/'
+
     // here you can enable a production-specific feature
   }
 
