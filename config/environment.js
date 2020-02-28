@@ -2,9 +2,9 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'ember-stencil',
+    modulePrefix: 'hub-components-ember',
     environment,
-    rootURL: '/',
+    rootURL: './',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
