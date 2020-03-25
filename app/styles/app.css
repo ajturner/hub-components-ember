@@ -7,4 +7,5 @@
   .item {
     width: 32%;
     margin-bottom: 2%; /* (100-32*3)/2 */
+    border: 1px solid #888;
   }
